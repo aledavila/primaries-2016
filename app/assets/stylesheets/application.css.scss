@@ -117,7 +117,8 @@ canvas {
   margin-top: 6% !important;
 }
 
-#IA, #NH, #SC, #NV, #AL, #AK, #AR, #GA, #MA, #MN, #OK, #TN, #TX, #VT, #VA {
+#IA, #NH, #SC, #NV, #AL, #AK, #AR, #GA, #MA, #MN, #OK, #TN, #TX, #VT, #VA,
+#KS, #KY, #LA, #ME, #NE, #HI, #ID, #MI, #MS {
     display: none;
     height: 370px;
     overflow: auto;
@@ -126,7 +127,6 @@ canvas {
     top: 38%;
     width: 300px;
     padding-top: 1%;
-    // background-color: rgba(2,10,247,0.5);
     border: 1px dotted rgba(2,10,247,1);
     border-radius: 2%;
     font-family: 'Helvetica Neue';
