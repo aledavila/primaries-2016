@@ -1,0 +1,194 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import "semantic-ui";
+@import url(https://fonts.googleapis.com/css?family=Raleway|Lato|Montserrat|Merriweather:300);
+
+* {
+  box-sizing: border-box;
+}
+
+.ui.container {
+  width: 1300px !important;
+  margin: 2% auto -4em !important;
+  margin-bottom: 0;
+}
+
+h1 {
+  color: red;
+  font-family: 'Merriweather'; font-weight: 300;
+  text-transform: uppercase;
+  font-size: 2.75em;
+}
+
+#description {
+  font-family: 'Merriweather'; font-weight: 300;
+}
+
+#message {
+  display: none;
+}
+
+#candidate {
+  font-family: 'Merriweather'; font-weight: 300;
+}
+
+#questions {
+  position: absolute;
+  top: 75%;
+  left: 65%;
+  z-index: 10;
+  cursor: pointer;
+  font-size: 2em;
+}
+
+.help {
+  display: none;
+  padding: 3%;
+}
+
+i:hover + .help {
+  display: block;
+  width: 300px;
+  background-color: rgba(122, 122, 122,0.4);
+  font-size: 14px;
+  font-family: 'Raleway';
+  font-weight: 200;
+  margin-top: 2%;
+  text-align: justify;
+}
+
+#nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: absolute;
+  z-index: 10;
+  top: 5%;
+  right: 5%;
+}
+
+.dem-nav,
+.map-nav {
+  margin-top: 1%;
+}
+
+button {
+  font-family: 'Merriweather' !important;
+}
+
+.gop-nav button {
+  background-color: #D70000 !important;
+  color: white !important;
+}
+
+.dem-nav button {
+  background-color: #152289 !important;
+  color: white !important;
+}
+
+.gop-numbers,
+.dem-numbers {
+  display: none;
+}
+
+.gopCharts {
+  margin-left: 2%;
+}
+
+canvas {
+  margin-top: 5%;
+}
+
+#canvas {
+  margin-top: 6% !important;
+}
+
+#IA, #NH, #SC, #NV, #AL, #AK, #AR, #GA, #MA, #MN, #OK, #TN, #TX, #VT, #VA {
+    display: none;
+    height: 370px;
+    overflow: auto;
+    position: absolute;
+    right: 12%;
+    top: 38%;
+    width: 300px;
+    padding-top: 1%;
+    // background-color: rgba(2,10,247,0.5);
+    border: 1px dotted rgba(2,10,247,1);
+    border-radius: 2%;
+    font-family: 'Helvetica Neue';
+    font-weight: 300;
+    text-align: center;
+}
+
+h2.state {
+    text-align: center;
+    font-family: 'Merriweather'; font-weight: 300;
+}
+
+h3 {
+  text-decoration: underline;
+  font-family: 'Helvetica Neue';
+  font-weight: 300;
+}
+
+.dems {
+  color: #152289;
+}
+
+.reps {
+  color: #D70000;
+}
+
+footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  opacity: .5;
+  font-family: 'Raleway';
+  font-weight: 300;
+}
+
+@media all and (max-width:1000px) {
+  .ui.container {
+    margin: 2% 2% !important;
+  }
+  #message {
+    display: block;
+    font-size: 2em;
+    color: blue;
+    margin-top: 5%
+  }
+
+  #message h2 {
+      font-family: 'Merriweather' !important;
+  }
+  .gop-nav,
+  .dem-nav,
+  .map-nav,
+  .gop-numbers,
+  .dem-numbers,
+  #map,
+  canvas,
+  #candidate,
+  #description,
+  #canvas,
+  #questions {
+    display: none;
+  }
+}
+
+
