@@ -1,6 +1,6 @@
 == About this app
 
-* in the works
+- in the works
 
 Technologies used: 
 
