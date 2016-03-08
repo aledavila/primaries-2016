@@ -1,23 +1,23 @@
 == About this app
 
-- in the works
+In the works
 
-Technologies used: 
+=Technologies used: 
 
-Ruby on Rails
+1. Ruby on Rails
 
-Huffington Post - Pollster API
+2. Huffington Post - Pollster API
 
-Raphael.js
+3. Raphael.js
 
-Charts.js
+4. Charts.js
 
 
-To be used: (for primary elections) 
+=To be used: (for primary elections) 
 
-Mongo
+1. Mongo
 
-Angular.js
+2. Angular.js
 
 **need to build a database for the primary results 
 **everything is hardcoded at the moment
