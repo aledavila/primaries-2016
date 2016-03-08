@@ -1,8 +1,8 @@
-== About this app
+= About this app
 
 In the works
 
-=Technologies used: 
+== Technologies used: 
 
 1. Ruby on Rails
 
@@ -13,7 +13,7 @@ In the works
 4. Charts.js
 
 
-=To be used: (for primary elections) 
+== To be used: (for primary elections) 
 
 1. Mongo
 
