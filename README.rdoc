@@ -1,28 +1,23 @@
-== README
+= About this app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In the works
 
-Things you may want to cover:
+== Technologies used: 
 
-* Ruby version
+1. Ruby on Rails
 
-* System dependencies
+2. Huffington Post - Pollster API
 
-* Configuration
+3. Raphael.js
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+4. Charts.js
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+== To be used: (for primary elections) 
+
+1. Mongo
+
+2. Angular.js
+
+**need to build a database for the primary results 
+**everything is hardcoded at the moment
