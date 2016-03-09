@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require angular/angular
 //= require Chart
 //= require semantic-ui
 //= require raphael
