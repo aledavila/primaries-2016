@@ -196,7 +196,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bower-rails
+  bower-rails (~> 0.10.0)
   byebug
   capybara
   chart-js-rails
