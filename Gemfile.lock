@@ -114,6 +114,7 @@ GEM
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
     origin (2.2.0)
+    pg (0.18.4)
     pollster (0.2.3)
       json
     rack (1.6.4)
@@ -224,6 +225,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   mongoid (~> 5.1.0)
+  pg (~> 0.15)
   pollster
   rails (= 4.2.5)
   rails-assets-raphael!
