@@ -161,7 +161,7 @@ $(function(){
   };
 
   var generateClintonChart = function () { return {
-      labels: ["National", "Iowa", "New Hampshire", "S. Carolina", "Florida", "N. Carlona", "Ohio", "California", "Texas", "Pennsylvania", "New Jersey", "Georgia", "Nevada", "Massachusetts", "Oklahoma", "Virginia", "Michigan", "Wisconsin"],
+      labels: ["National", "Iowa", "New Hampshire", "S. Carolina", "Florida", "N. Carlona", "Ohio", "California", "Texas", "Pennsylvania", "New Jersey", "Georgia", "Nevada", "Massachusetts", "Oklahoma", "Virginia", "Michigan", "Illinois", "Arizona", "Wisconsin", "New York", "Maryland"],
       datasets: [
           {
               label: "CLinton",
@@ -176,7 +176,7 @@ $(function(){
   };
 
   var generateSandersChart = function () { return {
-      labels: ["National", "Iowa", "New Hampshire", "S. Carolina", "Florida", "N. Carlona", "Ohio", "California", "Texas", "Pennsylvania", "New Jersey", "Georgia", "Nevada", "Massachusetts", "Oklahoma", "Virginia", "Michigan", "Wisconsin"],
+      labels: ["National", "Iowa", "New Hampshire", "S. Carolina", "Florida", "N. Carlona", "Ohio", "California", "Texas", "Pennsylvania", "New Jersey", "Georgia", "Nevada", "Massachusetts", "Oklahoma", "Virginia", "Michigan", "Illinois", "Arizona", "Wisconsin", "New York", "Maryland"],
       datasets: [
           {
               label: "Sanders",
